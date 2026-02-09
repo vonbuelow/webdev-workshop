@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Team — Hackbeanpot WebDev Workshop</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Hackbeanpot 2026 WebDev Workshop</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="reference.html">Reference</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our team</h1>
+    <p>Meet the people behind the workshop. Use the exercises below to add more members and style this page.</p>
+
+    <section class="team-list">
+      <div class="team-card">
+        <h3>Dalton</h3>
+        <p class="role">Workshop lead</p>
+        <p>Loves teaching leetcode to beginners!</p>
+      </div>
+    </section>
+
+    <section class="exercise">
+      <h3>Try it: Add two more team members</h3>
+      <p>Duplicate the <code>&lt;div class="team-card"&gt;</code> block above (the one with Alex). Paste it twice inside <code>team-list</code>, then change the name, role, and short bio for two new team members.</p>
+      <p class="hint">You’ll use: the same structure—<code>&lt;div class="team-card"&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;p class="role"&gt;</code>, and a plain <code>&lt;p&gt;</code> for the bio.</p>
+    </section>
+
+    <section class="exercise">
+      <h3>Try it: Style the team cards</h3>
+      <p>In <code>styles.css</code> (or a new <code>team.css</code> if you prefer), add a class for the team cards and give them a background color, padding, and maybe a border or border-radius so they stand out from the page.</p>
+      <p class="hint">You’ll use: <code>.team-card { ... }</code> with properties like <code>background-color</code>, <code>padding</code>, <code>border</code>, <code>border-radius</code>.</p>
+    </section>
+
+    <section class="exercise">
+      <h3>Try it: Add a “Say hi” button with JavaScript</h3>
+      <p>Add a button to this page, e.g. <code>&lt;button id="say-hi-btn"&gt;Say hi&lt;/button&gt;</code>. In <code>scripts.js</code>, write code that runs when the button is clicked: show an <code>alert('Hi!')</code> or use <code>console.log('Hi!')</code> and open the browser’s developer console (F12) to see it.</p>
+      <p class="hint">You’ll use: <code>document.getElementById('say-hi-btn')</code> and <code>.addEventListener('click', function () { alert('Hi!'); });</code>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hackbeanpot WebDev Workshop</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

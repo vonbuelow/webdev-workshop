@@ -1,0 +1,189 @@
+
+/* General Styles */
+/* Get the hbp ones plz hex codes  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #20456C;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+    background-color: #AEDFE3;
+    margin: 1em;
+    margin-bottom: 3em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #20456C;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+  }
+
+  /* Inline exercise callout (used on workshop pages) */
+  .exercise {
+    background-color: #f0f7ff;
+    border: 1px solid #b8d4e8;
+    border-radius: 6px;
+    padding: 1em 1.25em;
+    margin: 1.5em 0;
+  }
+  .exercise h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #1a4d6d;
+  }
+  .exercise p {
+    margin: 0.5em 0;
+  }
+  .exercise .hint {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 0.5em;
+  }
+
+  /* Team cards (used on team.html) - minimal default; exercise asks learners to add styles */
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1.5em 0;
+  }
+  .team-card {
+    padding: 0.5em 0;
+  }
+  .team-card .role {
+    font-weight: bold;
+    color: #555;
+    margin: 0.25em 0;
+  }
+
+  /* Reference: Padding examples (for hackers to play with and reuse) */
+  .reference-section {
+    margin-top: 2em;
+    padding-top: 1.5em;
+    border-top: 1px solid #dee2e6;
+  }
+  .reference-section h2 {
+    font-size: 1.25em;
+    margin-top: 0;
+  }
+  .padding-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  .padding-examples > div {
+    background-color: #e8f4f8;
+    border: 1px solid #b8d4e8;
+    border-radius: 6px;
+    font-size: 0.9em;
+    min-width: 140px;
+  }
+  /* One value = all four sides */
+  .ref-padding-tight { padding: 0.5em; }
+  .ref-padding-medium { padding: 1em; }
+  .ref-padding-loose { padding: 2em; }
+  /* Two values = vertical, horizontal */
+  .ref-padding-asymmetric { padding: 1em 2em; }
+  /* Four values = top, right, bottom, left (clockwise) */
+  .ref-padding-four { padding: 0.5em 1em 1.5em 2em; }
+
+  /* Reference: Margin examples */
+  .margin-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  .ref-margin-box {
+    background-color: #f5e6d3;
+    border: 1px solid #d4b896;
+    border-radius: 6px;
+    font-size: 0.9em;
+    min-width: 120px;
+  }
+  .ref-margin-tight { margin: 0.5em; }
+  .ref-margin-medium { margin: 1em; }
+  .ref-margin-loose { margin: 2em; }
+  .ref-margin-asymmetric { margin: 1em 2em; }
+  .ref-margin-four { margin: 0.5em 1em 1.5em 2em; }
+
+  /* Reference: Flex examples */
+  .ref-flex-row {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 0.75em;
+  }
+  .ref-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.75em;
+  }
+  .ref-flex-item {
+    background-color: #e8f4f8;
+    border: 1px solid #b8d4e8;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+  }
+
+  /* Reference: Centering examples */
+  .ref-center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    margin-top: 0.5em;
+  }
+  .ref-center-margin {
+    margin-top: 0.5em;
+  }
+  .ref-center-margin .ref-flex-item {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .ref-center-text {
+    text-align: center;
+    margin-top: 0.5em;
+    padding: 0.5em;
+  }
+

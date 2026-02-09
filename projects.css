@@ -1,0 +1,31 @@
+/* Project cards (used on projects.html) */
+
+/* alter the display of the projects: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25em;
+  margin: 1.5em 0;
+}
+
+.project-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.25em;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.project-card .tag {
+  display: inline-block;
+  background-color: #e9ecef;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  margin-top: 0.5em;
+}

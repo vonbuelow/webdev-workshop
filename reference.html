@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Reference — Hackbeanpot WebDev Workshop</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Hackbeanpot 2026 WebDev Workshop</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="reference.html">Reference</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Reference &amp; examples</h1>
+    <p>Use this page as a reference later. No exercises here—just examples you can copy or tweak.</p>
+
+    <section class="reference-section">
+      <h2>Padding examples</h2>
+      <p>Each box below uses a different <code>padding</code> value. Open <code>styles.css</code> and search for <code>ref-padding</code> to change the values and see what happens.</p>
+      <div class="padding-examples">
+        <div class="ref-padding-tight">
+          <strong>.ref-padding-tight</strong><br>
+          <code>padding: 0.5em;</code> — same on all sides
+        </div>
+        <div class="ref-padding-medium">
+          <strong>.ref-padding-medium</strong><br>
+          <code>padding: 1em;</code> — a bit more room
+        </div>
+        <div class="ref-padding-loose">
+          <strong>.ref-padding-loose</strong><br>
+          <code>padding: 2em;</code> — lots of space
+        </div>
+        <div class="ref-padding-asymmetric">
+          <strong>.ref-padding-asymmetric</strong><br>
+          <code>padding: 1em 2em;</code> — vertical, then horizontal
+        </div>
+        <div class="ref-padding-four">
+          <strong>.ref-padding-four</strong><br>
+          <code>padding: 0.5em 1em 1.5em 2em;</code> — top, right, bottom, left
+        </div>
+      </div>
+    </section>
+
+    <section class="reference-section">
+      <h2>Margin examples</h2>
+      <p>Each box below uses a different <code>margin</code> value. Margin adds space <em>outside</em> the element (unlike padding, which adds space inside). Open <code>styles.css</code> and search for <code>ref-margin</code> to change the values.</p>
+      <div class="margin-examples">
+        <div class="ref-margin-box ref-margin-tight">
+          <strong>.ref-margin-tight</strong><br>
+          <code>margin: 0.5em;</code>
+        </div>
+        <div class="ref-margin-box ref-margin-medium">
+          <strong>.ref-margin-medium</strong><br>
+          <code>margin: 1em;</code>
+        </div>
+        <div class="ref-margin-box ref-margin-loose">
+          <strong>.ref-margin-loose</strong><br>
+          <code>margin: 2em;</code>
+        </div>
+        <div class="ref-margin-box ref-margin-asymmetric">
+          <strong>.ref-margin-asymmetric</strong><br>
+          <code>margin: 1em 2em;</code> — vertical, horizontal
+        </div>
+        <div class="ref-margin-box ref-margin-four">
+          <strong>.ref-margin-four</strong><br>
+          <code>margin: 0.5em 1em 1.5em 2em;</code> — top, right, bottom, left
+        </div>
+      </div>
+    </section>
+
+    <section class="reference-section">
+      <h2>Flex examples</h2>
+      <p><code>display: flex</code> lays out children in a row. Use <code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code>, and <code>gap</code> to control layout. Search for <code>ref-flex</code> in <code>styles.css</code>.</p>
+      <div class="ref-flex-row">
+        <div class="ref-flex-item">1</div>
+        <div class="ref-flex-item">2</div>
+        <div class="ref-flex-item">3</div>
+      </div>
+      <div class="ref-flex-wrap">
+        <div class="ref-flex-item">1</div>
+        <div class="ref-flex-item">2</div>
+        <div class="ref-flex-item">3</div>
+        <div class="ref-flex-item">4</div>
+        <div class="ref-flex-item">5</div>
+      </div>
+    </section>
+
+    <section class="reference-section">
+      <h2>Centering examples</h2>
+      <p>Different ways to center content. Search for <code>ref-center</code> in <code>styles.css</code>.</p>
+      <div class="ref-center-flex">
+        <div class="ref-flex-item">Flex: centered</div>
+      </div>
+      <div class="ref-center-margin">
+        <div class="ref-flex-item">Margin: auto</div>
+      </div>
+      <div class="ref-center-text">
+        <p>Text-align: center — for inline content</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hackbeanpot WebDev Workshop</p>
+  </footer>
+</body>
+</html>
