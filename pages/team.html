@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Team — Hackbeanpot WebDev Workshop</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Hackbeanpot 2026 WebDev Workshop</div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="reference.html">Reference</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--
+      STEPS (HTML + JS) — do these in order.
+      Step 1 (HTML): Add two more team cards below — copy the <div class="team-card"> block, paste twice, change name/role/bio.
+      Step 2 (HTML): Add a button with id="say-hi-btn", e.g. <button id="say-hi-btn">Say hi</button>. Put it under the team list or above the exercises.
+      Step 3 (JS): Open scripts.js at the project root. Find the "Team page (team.html)" section and uncomment the code (or write your own using getElementById + addEventListener). Save and refresh; click the button.
+    -->
+    <h1>Our team</h1>
+    <p>Meet the people behind the workshop. Follow the steps in the comments in this file and in <code>scripts.js</code>.</p>
+
+    <section class="team-list">
+      <!-- Step 1: duplicate this block for two more team members. -->
+      <div class="team-card">
+        <h3>Dalton</h3>
+        <p class="role">Workshop lead</p>
+        <p>Loves teaching leetcode to beginners!</p>
+      </div>
+    </section>
+
+    <!-- Step 2: add your button here with id="say-hi-btn". Then do Step 3 in scripts.js. -->
+    <!-- e.g. <button id="say-hi-btn">Say hi</button> -->
+
+    <section class="exercise">
+      <h3>Try it: Add two more team members</h3>
+      <p>Duplicate the <code>&lt;div class="team-card"&gt;</code> block above. Paste it twice inside <code>team-list</code>, then change the name, role, and short bio for two new team members.</p>
+      <p class="hint">You’ll use: the same structure—<code>&lt;div class="team-card"&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;p class="role"&gt;</code>, and a plain <code>&lt;p&gt;</code> for the bio.</p>
+    </section>
+
+    <section class="exercise">
+      <h3>Try it: Style the team cards</h3>
+      <p>In <code>styles/styles.css</code> (or a new <code>styles/team.css</code> if you prefer), add styles for <code>.team-card</code>: background color, padding, border or border-radius.</p>
+      <p class="hint">You’ll use: <code>.team-card { ... }</code> with properties like <code>background-color</code>, <code>padding</code>, <code>border</code>, <code>border-radius</code>.</p>
+    </section>
+
+    <section class="exercise">
+      <h3>Try it: Add a “Say hi” button with JavaScript</h3>
+      <p>Add the button (Step 2 in the comments above), then open <code>scripts.js</code> and complete Step 3 there so the button runs code when clicked.</p>
+      <p class="hint">In scripts.js: <code>document.getElementById('say-hi-btn')</code> and <code>.addEventListener('click', function () { alert('Hi!'); });</code>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hackbeanpot WebDev Workshop</p>
+  </footer>
+
+  <!-- This page uses scripts.js; the "Say hi" button code lives there. -->
+  <script src="../scripts.js"></script>
+</body>
+</html>

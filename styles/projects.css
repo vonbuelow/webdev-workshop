@@ -10,7 +10,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display */
 }
 
 .project-card {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa; /* Try it: change to #e8f4f8 or #fff3e0. */
   border: 1px solid #dee2e6;
   border-radius: 8px;
   padding: 1.25em;

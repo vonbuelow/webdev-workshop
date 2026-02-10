@@ -5,11 +5,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Try it: change this to another hex color (e.g. #eee or #e8f4f8). */
   }
   
   header {
-    background-color: #20456C;
+    background-color: #20456C; /* Try it: tweak the header color. */
     color: white;
     padding: 1em;
   }
@@ -28,7 +28,7 @@ body {
   nav ul {
     list-style: none;
     display: flex;
-    gap: 1em;
+    gap: 1em; /* Try it: change to 1.5em or 2em and refresh. */
   }
   
   nav ul li a {
@@ -41,11 +41,11 @@ body {
   }
   
   main {
-    padding: 2em;
+    padding: 2em; /* Try it: try 1em or 3em. */
     background-color: #AEDFE3;
     margin: 1em;
     margin-bottom: 3em;
-    border-radius: 5px;
+    border-radius: 5px; /* Try it: try 10px or 0 for square corners. */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
