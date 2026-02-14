@@ -11,15 +11,6 @@
     });
   }
 
-  // "Let's get hacking!" button
-  // Uncomment the block below and add your script to run when the button is clicked.
-  // var hackBtn = document.getElementById('your-id');
-  // if (hackBtn) {
-  //   hackBtn.addEventListener('click', function () {
-  //     alert("Let's go!");
-  //   });
-  // }
-
   // --- Team page (team.html) — Step 3: wire up the "Say hi" button ---
   // Step 1 & 2 are in team.html (add team cards, add button with id="say-hi-btn").
   // Here: get the button by id, then add a click listener. Uncomment the block below or write your own.
