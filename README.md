@@ -12,7 +12,7 @@ Each page (Home, About, Projects, Team) has “try it” tasks you can do as you
 - https://www.geeksforgeeks.org/css/css-tutorial/
 
 ## JS: 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types 
+- Manipulate the HTML DOM: https://www.w3schools.com/js/js_htmldom_elements.asp
 - 
 
-All of the following resources also contain additional tabs on HTML, CSS, and JavaScript. Please use these resources however you best see fit. Both w3schools and MDN are amazing resources. 
+All of the following resources also contain additional tabs on HTML, CSS, and JavaScript. Please use these resources however you best see fit. Both w3schools, geeksforgeeks and MDN are amazing resources. 
